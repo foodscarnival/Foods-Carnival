@@ -1,0 +1,131 @@
+// ============================================================
+//  FOODS CARNIVAL — Menu & Deals Data
+// ============================================================
+
+const MENU_ITEMS = [
+
+  // ── BURGERS ──────────────────────────────────────────────
+  { id:1,  cat:'burgers', name:'Zinger Burger',         price:299, desc:'Crispy fried chicken patty with special sauce',      img:'https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=500&q=85', badge:'Popular'   },
+  { id:2,  cat:'burgers', name:'Zinger Cheese Burger',  price:349, desc:'Zinger patty topped with melted cheese & veggies',   img:'https://images.unsplash.com/photo-1550317138-10000687a72b?w=500&q=85', badge:''           },
+  { id:3,  cat:'burgers', name:'Chicken Paty Burger',   price:279, desc:'Juicy grilled chicken patty in a soft bun',          img:'https://images.unsplash.com/photo-1484723091739-30990093a101?w=500&q=85', badge:''           },
+  { id:4,  cat:'burgers', name:'Double Deker Burger',   price:449, desc:'Double-stacked loaded burger',                       img:'https://images.unsplash.com/photo-1586816001966-79b736744398?w=500&q=85', badge:'Special'    },
+  { id:5,  cat:'burgers', name:'Jalapeno Burger',       price:399, desc:'Fiery jalapeno burger with house hot sauce',         img:'https://images.unsplash.com/photo-1607013251379-e6eecfffe234?w=500&q=85', badge:'Spicy'      },
+  { id:6,  cat:'burgers', name:'Maxican Burger',        price:399, desc:'Mexican-style burger with bold spices',              img:'https://images.unsplash.com/photo-1553979459-d2229ba7433b?w=500&q=85', badge:''           },
+  { id:7,  cat:'burgers', name:'Lava Zinger Burger',    price:449, desc:'Zinger with signature lava hot sauce',               img:'https://images.unsplash.com/photo-1572802419224-296b0aeee0d9?w=500&q=85', badge:'Hot'        },
+  { id:8,  cat:'burgers', name:'Pizza Burger',          price:449, desc:'Burger stacked with pizza-style toppings',           img:'https://images.unsplash.com/photo-1594007654729-407eedc4be65?w=500&q=85', badge:'Fusion'     },
+  { id:9,  cat:'burgers', name:'Chicken Burger',        price:249, desc:'Classic chicken burger with fresh garden veggies',   img:'https://images.unsplash.com/photo-1499636136210-6f4ee915583e?w=500&q=85', badge:''           },
+  { id:10, cat:'burgers', name:'Chicken Cheese Burger', price:299, desc:'Chicken patty with cheese slice & house sauce',      img:'https://images.unsplash.com/photo-1625228333734-7fd0dc941c7c?w=500&q=85', badge:''           },
+  { id:11, cat:'burgers', name:'Lapeta Burger',         price:299, desc:'Unique Lapeta-style burger',                         img:'https://images.unsplash.com/photo-1561758033-d89a9ad46330?w=500&q=85', badge:'Unique'     },
+  { id:12, cat:'burgers', name:'Lapeta Egg Burger',     price:179, desc:'Egg Lapeta burger — best value',                     img:'https://images.unsplash.com/photo-1551615593-ef5fe247e8f2?w=500&q=85', badge:'Value'      },
+
+  // ── PIZZA ─────────────────────────────────────────────────
+  { id:13, cat:'pizza', name:'BBQ Pizza (Small)',             price:399, desc:'Classic BBQ chicken pizza',                     img:'https://images.unsplash.com/photo-1513104890138-7c749659a591?w=500&q=85', badge:'Popular'   },
+  { id:14, cat:'pizza', name:'Tikka Pizza (Small)',           price:399, desc:'Spicy tikka masala pizza',                      img:'https://images.unsplash.com/photo-1604382354936-07c5d9983bd3?w=500&q=85', badge:'Spicy'     },
+  { id:15, cat:'pizza', name:'Fajita Pizza (Small)',          price:399, desc:'Mexican fajita-style pizza',                    img:'https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=500&q=85', badge:''          },
+  { id:16, cat:'pizza', name:'Foods Carnival Pizza (Small)', price:449, desc:'Our signature loaded special pizza',             img:'https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=500&q=85', badge:'Signature' },
+  { id:17, cat:'pizza', name:'Dount Pizza (Small)',           price:449, desc:'Donut-crust loaded pizza',                      img:'https://images.unsplash.com/photo-1528137871618-79d2761e3fd5?w=500&q=85', badge:''          },
+  { id:18, cat:'pizza', name:'Milai Boti Pizza (Small)',      price:449, desc:'Tender boti topping on a loaded pizza',         img:'https://images.unsplash.com/photo-1548369937-47519962c11a?w=500&q=85', badge:''          },
+  { id:19, cat:'pizza', name:'Crown Crush Pizza (Small)',     price:449, desc:'Crown-crust pizza fully loaded',                img:'https://images.unsplash.com/photo-1571066811602-716837d681de?w=500&q=85', badge:''          },
+  { id:20, cat:'pizza', name:'Kababish Pizza (Small)',        price:449, desc:'Kababish-spiced pizza',                         img:'https://images.unsplash.com/photo-1593560708920-61dd98c46a4e?w=500&q=85', badge:''          },
+  { id:21, cat:'pizza', name:'Pepperoni Pizza (Small)',       price:449, desc:'Classic pepperoni with extra cheese',           img:'https://images.unsplash.com/photo-1534308983496-4fabb1a015ee?w=500&q=85', badge:''          },
+  { id:22, cat:'pizza', name:'Hawain Pizza (Small)',          price:449, desc:'Sweet & savoury Hawaiian pizza',                img:'https://images.unsplash.com/photo-1565299507177-b0ac66763828?w=500&q=85', badge:''          },
+  { id:23, cat:'pizza', name:'Lasagna Pizza (Small)',         price:449, desc:'Pizza with lasagna-style layered topping',      img:'https://images.unsplash.com/photo-1555072956-7758afb20e8f?w=500&q=85', badge:''          },
+  { id:24, cat:'pizza', name:'Matka Pizza',                   price:799, desc:'One-of-a-kind pizza served in a clay pot',      img:'https://images.unsplash.com/photo-1513104890138-7c749659a591?w=500&q=85', badge:'Unique'    },
+
+  // ── SHAWARMA ──────────────────────────────────────────────
+  { id:25, cat:'shawarma', name:'Chicken Shawarma',       price:169, desc:'Classic chicken shawarma wrap',              img:'https://images.unsplash.com/photo-1529006557810-274b9b2fc783?w=500&q=85', badge:'Popular' },
+  { id:26, cat:'shawarma', name:'Chicken Cheese Shawarma',price:199, desc:'Chicken shawarma with melted cheese',        img:'https://images.unsplash.com/photo-1644256878986-9ca70bc11f99?w=500&q=85', badge:''        },
+  { id:27, cat:'shawarma', name:'Zinger Shawarma',        price:219, desc:'Crispy zinger pieces in a shawarma wrap',    img:'https://images.unsplash.com/photo-1627308595229-7830a5c91f9f?w=500&q=85', badge:''        },
+  { id:28, cat:'shawarma', name:'Zinger Cheese Shawarma', price:249, desc:'Zinger shawarma loaded with cheese',         img:'https://images.unsplash.com/photo-1551892374-ecf8754cf8b0?w=500&q=85', badge:''        },
+  { id:29, cat:'shawarma', name:'Arabic Shawarma',        price:199, desc:'Traditional Arabic-style shawarma',          img:'https://images.unsplash.com/photo-1633504581786-316c8002b1b9?w=500&q=85', badge:'Special'},
+  { id:30, cat:'shawarma', name:'Turkish Shawarma',       price:249, desc:'Turkish-spiced chicken shawarma',            img:'https://images.unsplash.com/photo-1658726623820-b1da69e36e42?w=500&q=85', badge:''        },
+
+  // ── FRIED WINGS ───────────────────────────────────────────
+  { id:31, cat:'wings', name:'Fried Wings (6 pcs)',     price:349, desc:'6 crispy golden fried chicken wings',       img:'https://images.unsplash.com/photo-1567620832903-9fc6debc209f?w=500&q=85', badge:'Popular' },
+  { id:32, cat:'wings', name:'Fried Wings (12 pcs)',    price:599, desc:'12 crispy fried wings — party pack',        img:'https://images.unsplash.com/photo-1608039829572-78524f79c4c7?w=500&q=85', badge:'Family'  },
+  { id:33, cat:'wings', name:'Oven Bake Wings (6 pcs)', price:449, desc:'6 oven-baked tender wings',                 img:'https://images.unsplash.com/photo-1527477396000-e27163b481c2?w=500&q=85', badge:''        },
+  { id:34, cat:'wings', name:'Oven Bake Wings (12 pcs)',price:699, desc:'12 oven-baked wings — party size',          img:'https://images.unsplash.com/photo-1527477396000-e27163b481c2?w=500&q=85', badge:'Family'  },
+  { id:35, cat:'wings', name:'Buffalo Wings (6 pcs)',   price:399, desc:'Spicy buffalo-sauce wings',                 img:'https://images.unsplash.com/photo-1691703141654-1d74e7d7b6b4?w=500&q=85', badge:'Spicy'   },
+  { id:36, cat:'wings', name:'Buffalo Wings (12 pcs)',  price:699, desc:'12 spicy buffalo wings — party size',       img:'https://images.unsplash.com/photo-1691703141654-1d74e7d7b6b4?w=500&q=85', badge:'Spicy'   },
+
+  // ── FRIES ─────────────────────────────────────────────────
+  { id:37, cat:'fries', name:'Friend Fries',     price:199, desc:'Classic golden crispy fries',                  img:'https://images.unsplash.com/photo-1573080496219-bb080dd4f877?w=500&q=85', badge:''           },
+  { id:38, cat:'fries', name:'Masala Fries',     price:230, desc:'Fries tossed in house masala spice blend',     img:'https://images.unsplash.com/photo-1630431342011-0ce4e7b68b16?w=500&q=85', badge:'Popular'    },
+  { id:39, cat:'fries', name:'Mayo Garlic Fries',price:299, desc:'Crispy fries drizzled with garlic mayo',       img:'https://images.unsplash.com/photo-1548365328-8c6db3220e4c?w=500&q=85', badge:''           },
+  { id:40, cat:'fries', name:'Loaded Fries',     price:499, desc:'Fully loaded fries with toppings & sauce',     img:'https://images.unsplash.com/photo-1585109649139-366815a0d713?w=500&q=85', badge:'Best Seller'},
+  { id:41, cat:'fries', name:'Pizza Fries',      price:499, desc:'Fries with pizza sauce, cheese & toppings',    img:'https://images.unsplash.com/photo-1576107232684-1279f890cf55?w=500&q=85', badge:'Fusion'     },
+  { id:42, cat:'fries', name:'Matka Fries',      price:699, desc:'Unique fries served in a clay matka pot',      img:'https://images.unsplash.com/photo-1604357209793-fca5dca89f97?w=500&q=85', badge:'Unique'     },
+
+  // ── WRAPS ─────────────────────────────────────────────────
+  { id:43, cat:'wraps', name:'Afghani Wrap',       price:349, desc:'Afghani-spiced chicken in a soft tortilla wrap', img:'https://images.unsplash.com/photo-1626700051175-6818013e1d4f?w=500&q=85', badge:''          },
+  { id:44, cat:'wraps', name:'Food Carnival Wrap', price:349, desc:'Our signature loaded wrap',                       img:'https://images.unsplash.com/photo-1565299585323-38d6b0865b47?w=500&q=85', badge:'Signature' },
+  { id:45, cat:'wraps', name:'Arabic Wrap',        price:349, desc:'Arabic-style chicken wrap',                       img:'https://images.unsplash.com/photo-1640467890720-4e9b15e40a40?w=500&q=85', badge:''          },
+  { id:46, cat:'wraps', name:'Zinger Crispy Wrap', price:399, desc:'Crispy zinger in a fresh soft tortilla',          img:'https://images.unsplash.com/photo-1513442542250-854d436a73f2?w=500&q=85', badge:'Popular'   },
+
+  // ── PASTA ─────────────────────────────────────────────────
+  { id:47, cat:'pasta', name:'Food Carnival Pasta (Small)', price:299, desc:'Our signature house pasta',          img:'https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=500&q=85', badge:'Special' },
+  { id:48, cat:'pasta', name:'Chicken Cheese Pasta (Small)',price:299, desc:'Cheesy baked chicken pasta',         img:'https://images.unsplash.com/photo-1563379926898-05f4575a45d8?w=500&q=85', badge:''        },
+  { id:49, cat:'pasta', name:'Kababish Pasta (Small)',      price:299, desc:'Kababish-spiced pasta',               img:'https://images.unsplash.com/photo-1612929633738-8fe44f7ec841?w=500&q=85', badge:''        },
+  { id:50, cat:'pasta', name:'Alfredo Pasta (Small)',       price:399, desc:'Rich creamy classic Alfredo pasta',   img:'https://images.unsplash.com/photo-1555949258-eb67b1ef0ceb?w=500&q=85', badge:''        },
+  { id:51, cat:'pasta', name:'Food Carnival Pasta (Large)', price:549, desc:'Large signature house pasta',         img:'https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=500&q=85', badge:''        },
+  { id:52, cat:'pasta', name:'Alfredo Pasta (Large)',       price:599, desc:'Large creamy Alfredo pasta',          img:'https://images.unsplash.com/photo-1555949258-eb67b1ef0ceb?w=500&q=85', badge:''        },
+
+  // ── SANDWICH ──────────────────────────────────────────────
+  { id:53, cat:'sandwich', name:'Club Sandwich',          price:299, desc:'Triple-decker classic club sandwich',     img:'https://images.unsplash.com/photo-1509722747041-616f39b57569?w=500&q=85', badge:''        },
+  { id:54, cat:'sandwich', name:'Chicken Cheese Sandwich',price:349, desc:'Toasted chicken & cheese sandwich',       img:'https://images.unsplash.com/photo-1554433607-66b5efe9d304?w=500&q=85', badge:'Popular' },
+  { id:55, cat:'sandwich', name:'Pizza Sandwich',         price:399, desc:'Sandwich with pizza sauce & toppings',    img:'https://images.unsplash.com/photo-1481070555726-e2fe8357725c?w=500&q=85', badge:''        },
+  { id:56, cat:'sandwich', name:'Grill Sandwich',         price:349, desc:'Hot grilled sandwich with fillings',      img:'https://images.unsplash.com/photo-1528735602780-2552fd46c7af?w=500&q=85', badge:''        },
+
+  // ── PARATHA ROLL ──────────────────────────────────────────
+  { id:57, cat:'paratha', name:'Chicken Paratha',        price:199, desc:'Tender chicken filling in a fresh paratha roll', img:'https://images.unsplash.com/photo-1603360946369-dc9bb6258143?w=500&q=85', badge:''          },
+  { id:58, cat:'paratha', name:'Chicken Cheese Paratha', price:249, desc:'Chicken & melted cheese paratha roll',           img:'https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=500&q=85', badge:''          },
+  { id:59, cat:'paratha', name:'Zinger Paratha',         price:249, desc:'Crispy zinger in a fresh paratha roll',         img:'https://images.unsplash.com/photo-1589301760014-d929f3979dbc?w=500&q=85', badge:'Popular'   },
+  { id:60, cat:'paratha', name:'Zinger Cheese Paratha',  price:299, desc:'Zinger & cheese stuffed paratha roll',          img:'https://images.unsplash.com/photo-1626038947680-7cf5f9a3ef3a?w=500&q=85', badge:''          },
+  { id:61, cat:'paratha', name:'Food Carnival Paratha',  price:349, desc:'Our signature special paratha roll',            img:'https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=500&q=85', badge:'Signature' },
+
+  // ── BUFF BALL ─────────────────────────────────────────────
+  { id:62, cat:'buffball', name:'Chicken Buff Ball (2 pcs)', price:299, desc:'2 crispy chicken buff balls',   img:'https://images.unsplash.com/photo-1567620832903-9fc6debc209f?w=500&q=85', badge:''        },
+  { id:63, cat:'buffball', name:'Chickenstake (5 pcs)',      price:399, desc:'5 juicy chicken stake pieces',  img:'https://images.unsplash.com/photo-1608039829572-78524f79c4c7?w=500&q=85', badge:'Popular' },
+
+  // ── SODA & DRINKS ─────────────────────────────────────────
+  { id:64, cat:'drinks', name:'1.5 Liter Cold Drink',  price:199, desc:'1.5L bottle — Pepsi / 7Up / Mirinda',      img:'https://images.unsplash.com/photo-1554866585-cd94860890b7?w=500&q=85', badge:''           },
+  { id:65, cat:'drinks', name:'1 Liter Cold Drink',    price:150, desc:'1L cold drink bottle',                     img:'https://images.unsplash.com/photo-1622483767028-3f66f32aef97?w=500&q=85', badge:''           },
+  { id:66, cat:'drinks', name:'500ml Cold Drink',      price:99,  desc:'500ml cold drink can / bottle',            img:'https://images.unsplash.com/photo-1553361371-9b22f78e8b1d?w=500&q=85', badge:''           },
+  { id:67, cat:'drinks', name:'Masala Lemon Soda',     price:99,  desc:'Tangy house masala lemon soda',            img:'https://images.unsplash.com/photo-1437418747212-8d9709afab22?w=500&q=85', badge:''           },
+  { id:68, cat:'drinks', name:'Pineapple Soda',        price:199, desc:'Refreshing pineapple soda',                img:'https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?w=500&q=85', badge:''           },
+  { id:69, cat:'drinks', name:'Mint Margarita',        price:150, desc:'Cool & refreshing mint margarita',         img:'https://images.unsplash.com/photo-1621263764928-df1444c5e859?w=500&q=85', badge:'Refreshing' },
+  { id:70, cat:'drinks', name:'Doodh Soda',            price:199, desc:'Classic Doodh Soda',                       img:'https://images.unsplash.com/photo-1546173159-315724a31696?w=500&q=85', badge:''           },
+  { id:71, cat:'drinks', name:'Mix Fruit Soda',        price:299, desc:'Blend of refreshing fruit sodas',          img:'https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?w=500&q=85', badge:''           },
+
+  // ── CHAAT & REFRESHMENT ───────────────────────────────────
+  { id:72, cat:'chaat', name:'Tikka Malai Boti Samosa (12 pcs)', price:420, desc:'12 crispy stuffed samosas',            img:'https://images.unsplash.com/photo-1601050690597-df0568f70950?w=500&q=85', badge:'Popular' },
+  { id:73, cat:'chaat', name:'Dahi Bhalla',                      price:199, desc:'Classic dahi bhalla with chutney',     img:'https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=500&q=85', badge:''        },
+  { id:74, cat:'chaat', name:'Fruit Chaat',                      price:320, desc:'Fresh seasonal fruit chaat',           img:'https://images.unsplash.com/photo-1610832958506-aa56368176cf?w=500&q=85', badge:''        },
+  { id:75, cat:'chaat', name:'Double Samosa Chaat',              price:190, desc:'Two samosas with chaat topping',       img:'https://images.unsplash.com/photo-1626082927389-6cd097cee6b9?w=500&q=85', badge:''        },
+  { id:76, cat:'chaat', name:'Samosa Chaat Single',              price:130, desc:'Single samosa chaat',                  img:'https://images.unsplash.com/photo-1601050690597-df0568f70950?w=500&q=85', badge:''        },
+  { id:77, cat:'chaat', name:'Chana Papri Chaat',                price:190, desc:'Classic chana papri chaat',            img:'https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?w=500&q=85', badge:''        },
+  { id:78, cat:'chaat', name:'Cream Fruit Chaat',                price:350, desc:'Fruit chaat topped with fresh cream',  img:'https://images.unsplash.com/photo-1519915028121-7d3463d20b13?w=500&q=85', badge:'Premium' },
+];
+
+// ============================================================
+//  DEALS — exactly as on menu board
+// ============================================================
+const DEALS = [
+  { id:'d1',  num:'Deal No. 1',  items:['1 Zinger Burger','1 French Fries','1 Regular Cold Drink'],                                   oldPrice:560,  price:360,  img:'https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=500&q=85' },
+  { id:'d2',  num:'Deal No. 2',  items:['1 Lapeta Burger','1 Fries','1 Regular Cold Drink'],                                           oldPrice:440,  price:350,  img:'https://images.unsplash.com/photo-1561758033-d89a9ad46330?w=500&q=85' },
+  { id:'d3',  num:'Deal No. 3',  items:['1 Small Pizza','5 Hard Wings','1 Ltr Cold Drink'],                                            oldPrice:850,  price:700,  img:'https://images.unsplash.com/photo-1513104890138-7c749659a591?w=500&q=85' },
+  { id:'d4',  num:'Deal No. 4',  items:['2 Zinger Burger','1 Half Ltr Cold Drink'],                                                   oldPrice:700,  price:600,  img:'https://images.unsplash.com/photo-1550317138-10000687a72b?w=500&q=85' },
+  { id:'d5',  num:'Deal No. 5',  items:['2 Small Pizza','1 Regular Fries','1 Ltr Cold Drink'],                                         oldPrice:1150, price:950,  img:'https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=500&q=85' },
+  { id:'d6',  num:'Deal No. 6',  items:['1 Medium Pizza','1 Zinger Burger','1 Chicken Shawarma','1 Ltr Cold Drink'],                  oldPrice:1350, price:1150, img:'https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=500&q=85' },
+  { id:'d7',  num:'Deal No. 7',  items:['1 Zinger Burger','1 Zinger Shawarma','1 Masla Fries','5 Wings','1 Ltr Cold Drink'],          oldPrice:1050, price:900,  img:'https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=500&q=85' },
+  { id:'d8',  num:'Deal No. 8',  items:['4 Zinger Burger','1.5 Ltr Cold Drink','Fries'],                                              oldPrice:1350, price:1150, img:'https://images.unsplash.com/photo-1625228333734-7fd0dc941c7c?w=500&q=85' },
+  { id:'d9',  num:'Deal No. 9',  items:['1 Large Pizza','1 Zinger Shawarma','5 Hot Wings','Frise / 1.5 Ltr','1 Zinger Burger'],       oldPrice:2200, price:1999, img:'https://images.unsplash.com/photo-1528137871618-79d2761e3fd5?w=500&q=85' },
+  { id:'d10', num:'Deal No. 10', items:['1 Small Pizza','1 Chicken Shawarma','1 Chicken Pratha','1 Reg Fries','1 Ltr Bottle'],        oldPrice:1150, price:950,  img:'https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=500&q=85' },
+  { id:'d11', num:'Deal No. 11', items:['1 Small Pizza','300ml Cold Drink'],                                                           oldPrice:480,  price:430,  img:'https://images.unsplash.com/photo-1604382354936-07c5d9983bd3?w=500&q=85' },
+  { id:'d12', num:'Deal No. 12 — Zinger Blast', items:['4 Zinger Burger'],                                                            oldPrice:1200, price:1000, img:'https://images.unsplash.com/photo-1607013251379-e6eecfffe234?w=500&q=85' },
+  { id:'d13', num:'Deal No. 13', items:['12 Hot Wings','1 Ltr Cold Drink'],                                                            oldPrice:750,  price:650,  img:'https://images.unsplash.com/photo-1567620832903-9fc6debc209f?w=500&q=85' },
+  { id:'d14f',num:'Deal No. 14 — Family Pack',  items:['2 Large Pizza','1.5 Ltr Bottle','Fries'],                                     oldPrice:2400, price:2000, img:'https://images.unsplash.com/photo-1513104890138-7c749659a591?w=500&q=85' },
+  { id:'d14', num:'Deal No. 14', items:['3 Zinger Burger','1 Reg Fries','1 Ltr Cold Drink'],                                          oldPrice:1250, price:999,  img:'https://images.unsplash.com/photo-1550317138-10000687a72b?w=500&q=85' },
+  { id:'d14p',num:'Deal No. 14 — Party Pack',   items:['5 Zinger Burger','5 Hot Wings','1.5 Ltr Bottle'],                             oldPrice:1950, price:1699, img:'https://images.unsplash.com/photo-1625228333734-7fd0dc941c7c?w=500&q=85' },
+];
+
