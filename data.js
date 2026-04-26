@@ -7,16 +7,16 @@ const MENU_ITEMS = [
   // ── BURGERS ──────────────────────────────────────────────
   { id:1,  cat:'burgers', name:'Zinger Burger',         price:299, desc:'Crispy fried chicken patty with special sauce',      img:'https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=500&q=85', badge:'Popular'   },
   { id:2,  cat:'burgers', name:'Zinger Cheese Burger',  price:349, desc:'Zinger patty topped with melted cheese & veggies',   img:'https://images.unsplash.com/photo-1550317138-10000687a72b?w=500&q=85', badge:''           },
-  { id:3,  cat:'burgers', name:'Chicken Paty Burger',   price:279, desc:'Juicy grilled chicken patty in a soft bun',          img:'https://images.unsplash.com/photo-1484723091739-30990093a101?w=500&q=85', badge:''           },
+  { id:3,  cat:'burgers', name:'Chicken Paty Burger',   price:279, desc:'Juicy grilled chicken patty in a soft bun',          img:'https://images.unsplash.com/photo-1550547660-d9450f859349?q=80&w=1000&auto=format&fit=crop', badge:''           },
   { id:4,  cat:'burgers', name:'Double Deker Burger',   price:449, desc:'Double-stacked loaded burger',                       img:'https://images.unsplash.com/photo-1586816001966-79b736744398?w=500&q=85', badge:'Special'    },
   { id:5,  cat:'burgers', name:'Jalapeno Burger',       price:399, desc:'Fiery jalapeno burger with house hot sauce',         img:'https://images.unsplash.com/photo-1607013251379-e6eecfffe234?w=500&q=85', badge:'Spicy'      },
   { id:6,  cat:'burgers', name:'Maxican Burger',        price:399, desc:'Mexican-style burger with bold spices',              img:'https://images.unsplash.com/photo-1553979459-d2229ba7433b?w=500&q=85', badge:''           },
   { id:7,  cat:'burgers', name:'Lava Zinger Burger',    price:449, desc:'Zinger with signature lava hot sauce',               img:'https://images.unsplash.com/photo-1572802419224-296b0aeee0d9?w=500&q=85', badge:'Hot'        },
-  { id:8,  cat:'burgers', name:'Pizza Burger',          price:449, desc:'Burger stacked with pizza-style toppings',           img:'https://images.unsplash.com/photo-1594007654729-407eedc4be65?w=500&q=85', badge:'Fusion'     },
-  { id:9,  cat:'burgers', name:'Chicken Burger',        price:249, desc:'Classic chicken burger with fresh garden veggies',   img:'https://images.unsplash.com/photo-1499636136210-6f4ee915583e?w=500&q=85', badge:''           },
-  { id:10, cat:'burgers', name:'Chicken Cheese Burger', price:299, desc:'Chicken patty with cheese slice & house sauce',      img:'https://images.unsplash.com/photo-1625228333734-7fd0dc941c7c?w=500&q=85', badge:''           },
-  { id:11, cat:'burgers', name:'Lapeta Burger',         price:299, desc:'Unique Lapeta-style burger',                         img:'https://images.unsplash.com/photo-1561758033-d89a9ad46330?w=500&q=85', badge:'Unique'     },
-  { id:12, cat:'burgers', name:'Lapeta Egg Burger',     price:179, desc:'Egg Lapeta burger — best value',                     img:'https://images.unsplash.com/photo-1551615593-ef5fe247e8f2?w=500&q=85', badge:'Value'      },
+  { id:8,  cat:'burgers', name:'Pizza Burger',          price:449, desc:'Burger stacked with pizza-style toppings',           img:'https://images.unsplash.com/photo-1594212699903-ec8a3eca50f5?q=80&w=1000&auto=format&fit=crop', badge:'Fusion'     },
+  { id:9,  cat:'burgers', name:'Chicken Burger',        price:249, desc:'Classic chicken burger with fresh garden veggies',   img:'https://images.pexels.com/photos/1639557/pexels-photo-1639557.jpeg?auto=compress&cs=tinysrgb&w=1000', badge:''           },
+  { id:10, cat:'burgers', name:'Chicken Cheese Burger', price:299, desc:'Chicken patty with cheese slice & house sauce',      img:'https://images.unsplash.com/photo-1525059696034-4967a8e1dca2?q=80&w=1000&auto=format&fit=crop', badge:''           },
+  { id:11, cat:'burgers', name:'Lapeta Burger',         price:299, desc:'Unique Lapeta-style burger',                         img:'https://images.unsplash.com/photo-1596662951482-0c4ba74a6df6?q=80&w=1000&auto=format&fit=crop', badge:'Unique'     },
+  { id:12, cat:'burgers', name:'Lapeta Egg Burger',     price:179, desc:'Egg Lapeta burger — best value',                     img:'https://images.unsplash.com/photo-1561758033-d89a9ad46330?w=500&q=85', badge:'Value'      },
 
   // ── PIZZA ─────────────────────────────────────────────────
   { id:13, cat:'pizza', name:'BBQ Pizza (Small)',             price:399, desc:'Classic BBQ chicken pizza',                     img:'https://images.unsplash.com/photo-1513104890138-7c749659a591?w=500&q=85', badge:'Popular'   },
@@ -28,13 +28,13 @@ const MENU_ITEMS = [
   { id:19, cat:'pizza', name:'Crown Crush Pizza (Small)',     price:449, desc:'Crown-crust pizza fully loaded',                img:'https://images.unsplash.com/photo-1571066811602-716837d681de?w=500&q=85', badge:''          },
   { id:20, cat:'pizza', name:'Kababish Pizza (Small)',        price:449, desc:'Kababish-spiced pizza',                         img:'https://images.unsplash.com/photo-1593560708920-61dd98c46a4e?w=500&q=85', badge:''          },
   { id:21, cat:'pizza', name:'Pepperoni Pizza (Small)',       price:449, desc:'Classic pepperoni with extra cheese',           img:'https://images.unsplash.com/photo-1534308983496-4fabb1a015ee?w=500&q=85', badge:''          },
-  { id:22, cat:'pizza', name:'Hawain Pizza (Small)',          price:449, desc:'Sweet & savoury Hawaiian pizza',                img:'https://images.unsplash.com/photo-1565299507177-b0ac66763828?w=500&q=85', badge:''          },
+  { id:22, cat:'pizza', name:'Hawain Pizza (Small)',          price:449, desc:'Sweet & savoury Hawaiian pizza',                img:'https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?q=80&w=1000&auto=format&fit=crop', badge:''          },
   { id:23, cat:'pizza', name:'Lasagna Pizza (Small)',         price:449, desc:'Pizza with lasagna-style layered topping',      img:'https://images.unsplash.com/photo-1555072956-7758afb20e8f?w=500&q=85', badge:''          },
   { id:24, cat:'pizza', name:'Matka Pizza',                   price:799, desc:'One-of-a-kind pizza served in a clay pot',      img:'https://images.unsplash.com/photo-1513104890138-7c749659a591?w=500&q=85', badge:'Unique'    },
 
   // ── SHAWARMA ──────────────────────────────────────────────
   { id:25, cat:'shawarma', name:'Chicken Shawarma',       price:169, desc:'Classic chicken shawarma wrap',              img:'https://images.unsplash.com/photo-1529006557810-274b9b2fc783?w=500&q=85', badge:'Popular' },
-  { id:26, cat:'shawarma', name:'Chicken Cheese Shawarma',price:199, desc:'Chicken shawarma with melted cheese',        img:'https://images.unsplash.com/photo-1644256878986-9ca70bc11f99?w=500&q=85', badge:''        },
+  { id:26, cat:'shawarma', name:'Chicken Cheese Shawarma',price:199, desc:'Chicken shawarma with melted cheese',        img:'https://images.unsplash.com/photo-1561651823-34feb02250e4?q=80&w=1000&auto=format&fit=crop', badge:''        },
   { id:27, cat:'shawarma', name:'Zinger Shawarma',        price:219, desc:'Crispy zinger pieces in a shawarma wrap',    img:'https://images.unsplash.com/photo-1627308595229-7830a5c91f9f?w=500&q=85', badge:''        },
   { id:28, cat:'shawarma', name:'Zinger Cheese Shawarma', price:249, desc:'Zinger shawarma loaded with cheese',         img:'https://images.unsplash.com/photo-1551892374-ecf8754cf8b0?w=500&q=85', badge:''        },
   { id:29, cat:'shawarma', name:'Arabic Shawarma',        price:199, desc:'Traditional Arabic-style shawarma',          img:'https://images.unsplash.com/photo-1633504581786-316c8002b1b9?w=500&q=85', badge:'Special'},
