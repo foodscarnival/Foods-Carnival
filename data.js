@@ -35,49 +35,49 @@ const MENU_ITEMS = [
   { id:16, cat:'pizza', name:'Foods Carnival Pizza (large)', price:1199, desc:'Our signature loaded special pizza',            img:'https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=500&q=85', badge:'Signature' },
 
   
-  { id:17, cat:'pizza', name:'Dount Pizza (Small)',           price:449, desc:'Donut crust loaded pizza',                      img:'https://images.unsplash.com/photo-1571066811602-716837d681de?w=500&q=85', badge:''          },
-  { id:17, cat:'pizza', name:'Dount Pizza (medium)',          price:799, desc:'Donut crust loaded pizza',                      img:'https://images.unsplash.com/photo-1571066811602-716837d681de?w=500&q=85', badge:''          },
-  { id:17, cat:'pizza', name:'Dount Pizza (large)',           price:1199, desc:'Donut crust loaded pizza',                     img:'https://images.unsplash.com/photo-1571066811602-716837d681de?w=500&q=85', badge:''          },
+  { id:17, cat:'pizza', name:'Dount Pizza (Small)',           price:449, desc:'Donut crust loaded pizza',                      img:'https://eat.de/wp-content/uploads/2024/06/pizzadonuts-0702-2-1170x780.jpg.webp', badge:''          },
+  { id:17, cat:'pizza', name:'Dount Pizza (medium)',          price:799, desc:'Donut crust loaded pizza',                      img:'https://eat.de/wp-content/uploads/2024/06/pizzadonuts-0702-2-1170x780.jpg.webp', badge:''          },
+  { id:17, cat:'pizza', name:'Dount Pizza (large)',           price:1199, desc:'Donut crust loaded pizza',                     img:'https://eat.de/wp-content/uploads/2024/06/pizzadonuts-0702-2-1170x780.jpg.webp', badge:''          },
 
-  { id:18, cat:'pizza', name:'Milai Boti Pizza (Small)',      price:449, desc:'Tender boti topping on a loaded pizza',         img:'https://cdn.pixabay.com/photo/2024/04/21/18/44/ai-generated-8711272_1280.jpg', badge:''          },
-  { id:18, cat:'pizza', name:'Milai Boti Pizza (medium)',     price:799, desc:'Tender boti topping on a loaded pizza',         img:'https://cdn.pixabay.com/photo/2024/04/21/18/44/ai-generated-8711272_1280.jpg', badge:''          },
-  { id:18, cat:'pizza', name:'Milai Boti Pizza (large)',      price:1199, desc:'Tender boti topping on a loaded pizza',         img:'https://cdn.pixabay.com/photo/2024/04/21/18/44/ai-generated-8711272_1280.jpg', badge:''          },
+  { id:18, cat:'pizza', name:'Milai Boti Pizza (Small)',      price:449, desc:'Tender boti topping on a loaded pizza',         img:'https://pizza360.businesswala.pk/assets/uploads/605a1dfffef3f0de232b66bc8943cda1.png', badge:''          },
+  { id:18, cat:'pizza', name:'Milai Boti Pizza (medium)',     price:799, desc:'Tender boti topping on a loaded pizza',         img:'https://pizza360.businesswala.pk/assets/uploads/605a1dfffef3f0de232b66bc8943cda1.png', badge:''          },
+  { id:18, cat:'pizza', name:'Milai Boti Pizza (large)',      price:1199, desc:'Tender boti topping on a loaded pizza',        img:'https://pizza360.businesswala.pk/assets/uploads/605a1dfffef3f0de232b66bc8943cda1.png', badge:''          },
 
-  { id:19, cat:'pizza', name:'Crown Crush Pizza (Small)',     price:449, desc:'Crowncrust pizza fully loaded',                img:'https://cdn.pixabay.com/photo/2023/10/16/15/23/pizza-8319463_1280.jpg', badge:''          },
-  { id:19, cat:'pizza', name:'Crown Crush Pizza (medium)',    price:799, desc:'Crowncrust pizza fully loaded',                img:'https://cdn.pixabay.com/photo/2023/10/16/15/23/pizza-8319463_1280.jpg', badge:''          },
-  { id:19, cat:'pizza', name:'Crown Crush Pizza (large)',     price:1199, desc:'Crowncrust pizza fully loaded',               img:'https://cdn.pixabay.com/photo/2023/10/16/15/23/pizza-8319463_1280.jpg', badge:''          },
+  { id:19, cat:'pizza', name:'Crown Crush Pizza (Small)',     price:449, desc:'Crowncrust pizza fully loaded',                img:'https://www.mrcod.pk/wp-content/uploads/2023/03/Crown-Crust-Pizza-1.webp', badge:''          },
+  { id:19, cat:'pizza', name:'Crown Crush Pizza (medium)',    price:799, desc:'Crowncrust pizza fully loaded',                img:'https://www.mrcod.pk/wp-content/uploads/2023/03/Crown-Crust-Pizza-1.webp', badge:''          },
+  { id:19, cat:'pizza', name:'Crown Crush Pizza (large)',     price:1199, desc:'Crowncrust pizza fully loaded',               img:'https://www.mrcod.pk/wp-content/uploads/2023/03/Crown-Crust-Pizza-1.webp', badge:''          },
 
-  { id:20, cat:'pizza', name:'Kababish Pizza (Small)',        price:449, desc:'Kababis spiced pizza',                         img:'https://images.unsplash.com/photo-1593560708920-61dd98c46a4e?w=500&q=85', badge:''          },
-  { id:20, cat:'pizza', name:'Kababish Pizza (medium)',       price:799, desc:'Kababis spiced pizza',                         img:'https://images.unsplash.com/photo-1593560708920-61dd98c46a4e?w=500&q=85', badge:''          },
-  { id:20, cat:'pizza', name:'Kababish Pizza (large)',        price:1199, desc:'Kababis spiced pizza',                        img:'https://images.unsplash.com/photo-1593560708920-61dd98c46a4e?w=500&q=85', badge:''          },
+  { id:20, cat:'pizza', name:'Kababish Pizza (Small)',        price:449, desc:'Kababis spiced pizza',                         img:'https://eatfresh.businesswala.pk/assets/uploads/1460_b13ba76b1fd1870c86303e15dae85d23.png', badge:''          },
+  { id:20, cat:'pizza', name:'Kababish Pizza (medium)',       price:799, desc:'Kababis spiced pizza',                         img:'https://eatfresh.businesswala.pk/assets/uploads/1460_b13ba76b1fd1870c86303e15dae85d23.png', badge:''          },
+  { id:20, cat:'pizza', name:'Kababish Pizza (large)',        price:1199, desc:'Kababis spiced pizza',                        img:'https://eatfresh.businesswala.pk/assets/uploads/1460_b13ba76b1fd1870c86303e15dae85d23.png', badge:''          },
 
   { id:21, cat:'pizza', name:'Pepperoni Pizza (Small)',       price:449, desc:'Classic pepperoni with extra cheese',           img:'https://images.unsplash.com/photo-1534308983496-4fabb1a015ee?w=500&q=85', badge:''          },
   { id:21, cat:'pizza', name:'Pepperoni Pizza (medium)',      price:799, desc:'Classic pepperoni with extra cheese',           img:'https://images.unsplash.com/photo-1534308983496-4fabb1a015ee?w=500&q=85', badge:''          },
   { id:21, cat:'pizza', name:'Pepperoni Pizza (large)',       price:1199, desc:'Classic pepperoni with extra cheese',          img:'https://images.unsplash.com/photo-1534308983496-4fabb1a015ee?w=500&q=85', badge:''          },
 
-  { id:22, cat:'pizza', name:'Hawain Pizza (Small)',          price:449, desc:'Sweet & savoury Hawaiian pizza',                img:'https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?q=80&w=1000&auto=format&fit=crop', badge:''          },
-  { id:22, cat:'pizza', name:'Hawain Pizza (medium)',         price:799, desc:'Sweet & savoury Hawaiian pizza',                img:'https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?q=80&w=1000&auto=format&fit=crop', badge:''          },
-  { id:22, cat:'pizza', name:'Hawain Pizza (large)',          price:1199, desc:'Sweet & savoury Hawaiian pizza',               img:'https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?q=80&w=1000&auto=format&fit=crop', badge:''          },
+  { id:22, cat:'pizza', name:'Hawain Pizza (Small)',          price:449, desc:'Sweet & savoury Hawaiian pizza',                img:'https://www.allrecipes.com/thmb/xYu9Ii8paEyMcJy7sv2mYxwfd7Q=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/hawaiian-pizza-ddmfs-3x2-132-450eff04ad924d9a9eae98ca44e3f988.jpg', badge:''          },
+  { id:22, cat:'pizza', name:'Hawain Pizza (medium)',         price:799, desc:'Sweet & savoury Hawaiian pizza',                img:'https://www.allrecipes.com/thmb/xYu9Ii8paEyMcJy7sv2mYxwfd7Q=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/hawaiian-pizza-ddmfs-3x2-132-450eff04ad924d9a9eae98ca44e3f988.jpg', badge:''          },
+  { id:22, cat:'pizza', name:'Hawain Pizza (large)',          price:1199, desc:'Sweet & savoury Hawaiian pizza',               img:'https://www.allrecipes.com/thmb/xYu9Ii8paEyMcJy7sv2mYxwfd7Q=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/hawaiian-pizza-ddmfs-3x2-132-450eff04ad924d9a9eae98ca44e3f988.jpg', badge:''          },
 
   { id:23, cat:'pizza', name:'Lasagna Pizza (Small)',         price:449, desc:'Pizza with lasagna style layered topping',      img:'https://images.unsplash.com/photo-1555072956-7758afb20e8f?w=500&q=85', badge:''          },
   { id:23, cat:'pizza', name:'Lasagna Pizza (Small)',         price:799, desc:'Pizza with lasagna style layered topping',      img:'https://images.unsplash.com/photo-1555072956-7758afb20e8f?w=500&q=85', badge:''          },
   { id:23, cat:'pizza', name:'Lasagna Pizza (Small)',         price:1199, desc:'Pizza with lasagna style layered topping',     img:'https://images.unsplash.com/photo-1555072956-7758afb20e8f?w=500&q=85', badge:''          },
 
-  { id:24, cat:'pizza', name:'Matka Pizza(medium)',           price:799, desc:'One of a kind pizza served in a clay pot',      img:'https://images.unsplash.com/photo-1513104890138-7c749659a591?w=500&q=85', badge:'Unique'    },
+  { id:24, cat:'pizza', name:'Matka Pizza(medium)',           price:799, desc:'One of a kind pizza served in a clay pot',      img:'https://www.brandsynario.com/wp-content/uploads/2021/10/234718385_112475274463695_3527805430996435524_n-696x418.jpg', badge:'Unique'    },
 
   // ── SHAWARMA ──────────────────────────────────────────────
   { id:25, cat:'shawarma', name:'Chicken Shawarma',       price:169, desc:'Classic chicken shawarma wrap',              img:'https://images.unsplash.com/photo-1529006557810-274b9b2fc783?w=500&q=85', badge:'Popular' },
   { id:26, cat:'shawarma', name:'Chicken Cheese Shawarma',price:199, desc:'Chicken shawarma with melted cheese',        img:'https://images.unsplash.com/photo-1561651823-34feb02250e4?q=80&w=1000&auto=format&fit=crop', badge:''        },
   { id:27, cat:'shawarma', name:'Zinger Shawarma',        price:219, desc:'Crispy zinger pieces in a shawarma wrap',    img:'https://images.unsplash.com/photo-1626700051175-6818013e1d4f?q=80&w=1000&auto=format&fit=crop', badge:''        },
   { id:28, cat:'shawarma', name:'Zinger Cheese Shawarma', price:249, desc:'Zinger shawarma loaded with cheese',         img:'https://images.pexels.com/photos/461198/pexels-photo-461198.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1', badge:''        },
-  { id:29, cat:'shawarma', name:'Arabic Shawarma',        price:199, desc:'Traditional Arabic style shawarma',          img:'https://images.pexels.com/photos/461198/pexels-photo-461198.jpeg?auto=compress&cs=tinysrgb&w=1000', badge:'Special'},
+  { id:29, cat:'shawarma', name:'Arabic Shawarma',        price:199, desc:'Traditional Arabic style shawarma',          img:'https://fishandmeat.hk/wp-content/uploads/2025/05/arabic-chicken-shawarma-sandwich-recipe-1747792750.jpg', badge:'Special'},
   { id:30, cat:'shawarma', name:'Turkish Shawarma',       price:249, desc:'Turkish spiced chicken shawarma',            img:'https://cdn.pixabay.com/photo/2025/10/16/13/26/kofta-9898218_1280.jpg', badge:''        },
 
   // ── FRIED WINGS ───────────────────────────────────────────
   { id:31, cat:'wings', name:'Fried Wings (6 pcs)',     price:349, desc:'6 crispy golden fried chicken wings',       img:'https://images.unsplash.com/photo-1567620832903-9fc6debc209f?w=500&q=85', badge:'Popular' },
   { id:32, cat:'wings', name:'Fried Wings (12 pcs)',    price:599, desc:'12 crispy fried wings  party pack',        img:'https://cdn.pixabay.com/photo/2023/11/22/21/11/ai-generated-8406464_1280.png', badge:'Family'  },
   { id:33, cat:'wings', name:'Oven Bake Wings (6 pcs)', price:449, desc:'6 oven baked tender wings',                 img:'https://images.unsplash.com/photo-1527477396000-e27163b481c2?w=500&q=85', badge:''        },
-  { id:34, cat:'wings', name:'Oven Bake Wings (12 pcs)',price:699, desc:'12 oven baked wings  party size',          img:'https://images.unsplash.com/photo-1527477396000-e27163b481c2?w=500&q=85', badge:'Family'  },
+  { id:34, cat:'wings', name:'Oven Bake Wings (12 pcs)',price:699, desc:'12 oven baked wings  party size',          img:'https://www.tosimplyinspire.com/wp-content/uploads/2022/12/Oven-Baked-Chicken-Wings-8.jpg', badge:'Family'  },
   { id:35, cat:'wings', name:'Buffalo Wings (6 pcs)',   price:399, desc:'Spicy buffal sauce wings',                 img:'https://cdn.pixabay.com/photo/2024/08/04/06/44/ai-generated-8943668_1280.jpg'   },
   { id:36, cat:'wings', name:'Buffalo Wings (12 pcs)',  price:699, desc:'12 spicy buffalo wings  party size',       img:'https://cdn.pixabay.com/photo/2024/08/04/06/44/ai-generated-8943668_1280.jpg'   },
 
@@ -93,15 +93,15 @@ const MENU_ITEMS = [
   { id:43, cat:'wraps', name:'Afghani Wrap',       price:349, desc:'Afghani spiced chicken in a soft tortilla wrap', img:'https://media.istockphoto.com/id/594039684/photo/wraps.jpg?s=612x612&w=0&k=20&c=nZ_MMVwEaP1vOZvuwX-bLqkQdworMbQT_7JwdgLVP5s=', badge:''          },
   { id:44, cat:'wraps', name:'Food Carnival Wrap', price:349, desc:'Our signature loaded wrap',                       img:'https://images.unsplash.com/photo-1565299585323-38d6b0865b47?w=500&q=85', badge:'Signature' },
   { id:45, cat:'wraps', name:'Arabic Wrap',        price:349, desc:'Arabic style chicken wrap',                       img:'https://cdn.pixabay.com/photo/2023/10/21/09/00/ai-generated-8331065_1280.jpg', badge:''          },
-  { id:46, cat:'wraps', name:'Zinger Crispy Wrap', price:399, desc:'Crispy zinger in a fresh soft tortilla',          img:'https://media.istockphoto.com/id/171352484/photo/chicken-wrap.jpg?s=612x612&w=0&k=20&c=mdTnraCLUY0UaqJz9hj6TNg1G4BfGdvgISOklQXp3XE=', badge:'Popular'   },
+  { id:46, cat:'wraps', name:'Zinger Crispy Wrap', price:399, desc:'Crispy zinger in a fresh soft tortilla',          img:'https://thumbs.dreamstime.com/b/zinger-chicken-broast-wrapped-fried-chicken-s-either-zesty-spicy-fillet-crispy-golden-broasted-piece-380661647.jpg?w=768', badge:'Popular'   },
 
   // ── PASTA ─────────────────────────────────────────────────
   { id:47, cat:'pasta', name:'Food Carnival Pasta (Small)', price:299, desc:'Our signature house pasta',          img:'https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=500&q=85', badge:'Special' },
   { id:51, cat:'pasta', name:'Food Carnival Pasta (Large)', price:549, desc:'Large signature house pasta',         img:'https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=500&q=85', badge:''        },
   { id:48, cat:'pasta', name:'Chicken Cheese Pasta (Small)',price:299, desc:'Cheesy baked chicken pasta',         img:'https://images.unsplash.com/photo-1563379926898-05f4575a45d8?w=500&q=85', badge:''        },
   { id:48, cat:'pasta', name:'Chicken Cheese Pasta (large)',price:499, desc:'Cheesy baked chicken pasta',         img:'https://images.unsplash.com/photo-1563379926898-05f4575a45d8?w=500&q=85', badge:''        },
-  { id:49, cat:'pasta', name:'Kababish Pasta (Small)',      price:299, desc:'Kababish spiced pasta',               img:'https://images.unsplash.com/photo-1612929633738-8fe44f7ec841?w=500&q=85', badge:''        },
-  { id:49, cat:'pasta', name:'Kababish Pasta (large)',      price:499, desc:'Kababish spiced pasta',               img:'https://images.unsplash.com/photo-1612929633738-8fe44f7ec841?w=500&q=85', badge:''        },
+  { id:49, cat:'pasta', name:'Kababish Pasta (Small)',      price:299, desc:'Kababish spiced pasta',               img:'https://media.istockphoto.com/id/2015384579/photo/chicken-with-curry-sauce.webp?a=1&b=1&s=612x612&w=0&k=20&c=ESqeFbmc5_GZTUgrv136x8NOEt4ly7ZlffG3m780zhk=', badge:''        },
+  { id:49, cat:'pasta', name:'Kababish Pasta (large)',      price:499, desc:'Kababish spiced pasta',               img:'https://media.istockphoto.com/id/2015384579/photo/chicken-with-curry-sauce.webp?a=1&b=1&s=612x612&w=0&k=20&c=ESqeFbmc5_GZTUgrv136x8NOEt4ly7ZlffG3m780zhk=', badge:''        },
   { id:50, cat:'pasta', name:'Alfredo Pasta (Small)',       price:399, desc:'Rich creamy classic Alfredo pasta',   img:'https://images.unsplash.com/photo-1555949258-eb67b1ef0ceb?w=500&q=85', badge:''        },
   { id:52, cat:'pasta', name:'Alfredo Pasta (Large)',       price:599, desc:'Large creamy Alfredo pasta',          img:'https://images.unsplash.com/photo-1555949258-eb67b1ef0ceb?w=500&q=85', badge:''        },
 
@@ -136,9 +136,9 @@ const MENU_ITEMS = [
   { id:72, cat:'chaat', name:'Tikka Malai Boti Samosa (12 pcs)', price:420, desc:'12 crispy stuffed samosas',            img:'https://images.unsplash.com/photo-1601050690597-df0568f70950?w=500&q=85', badge:'Popular' },
   { id:73, cat:'chaat', name:'Dahi Bhalla',                      price:199, desc:'Classic dahi bhalla with chutney',     img:'https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=500&q=85', badge:''        },
   { id:74, cat:'chaat', name:'Fruit Chaat',                      price:320, desc:'Fresh seasonal fruit chaat',           img:'https://images.unsplash.com/photo-1610832958506-aa56368176cf?w=500&q=85', badge:''        },
-  { id:75, cat:'chaat', name:'Double Samosa Chaat',              price:190, desc:'Two samosas with chaat topping',       img:'https://images.unsplash.com/photo-1626082927389-6cd097cee6b9?w=500&q=85', badge:''        },
-  { id:76, cat:'chaat', name:'Samosa Chaat Single',              price:130, desc:'Single samosa chaat',                  img:'https://images.unsplash.com/photo-1601050690597-df0568f70950?w=500&q=85', badge:''        },
-  { id:77, cat:'chaat', name:'Chana Papri Chaat',                price:190, desc:'Classic chana papri chaat',            img:'https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?w=500&q=85', badge:''        },
+  { id:75, cat:'chaat', name:'Double Samosa Chaat',              price:190, desc:'Two samosas with chaat topping',       img:'https://diethood.com/wp-content/uploads/2023/02/samosa-chaat-recipe-4.jpg', badge:''        },
+  { id:76, cat:'chaat', name:'Samosa Chaat Single',              price:130, desc:'Single samosa chaat',                  img:'https://diethood.com/wp-content/uploads/2023/02/samosa-chaat-recipe-4.jpg', badge:''        },
+  { id:77, cat:'chaat', name:'Chana Papri Chaat',                price:190, desc:'Classic chana papri chaat',            img:'https://moonrice.net/wp-content/uploads/2023/03/Papdi-5.jpg', badge:''        },
   { id:78, cat:'chaat', name:'Cream Fruit Chaat',                price:350, desc:'Fruit chaat topped with fresh cream',  img:'https://images.unsplash.com/photo-1519915028121-7d3463d20b13?w=500&q=85', badge:'Premium' },
   {id: 101, cat: 'refresh',name: 'Rajasthani Gol Gappe(12 pcs)',price: 250,desc: 'Crispy gol gappe with two flavor of khatta pani.',img: 'https://media.istockphoto.com/id/525340611/photo/pani-puri-golgappe-chat-item-india.webp?a=1&b=1&s=612x612&w=0&k=20&c=ERDjp-8zeCqKa2Rf_eenKesXDpVcKdixrtq6wUSpmVI=', badge: 'New'  },
 ];
