@@ -5,10 +5,10 @@
 const MENU_ITEMS = [
 
   // ── BURGERS ──────────────────────────────────────────────
-  { id:1,  cat:'burgers', name:'Zinger Burger',         price:299, desc:'Crispy fried chicken patty with special sauce',      img:'https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=500&q=85', badge:'Popular'   },
-  { id:2,  cat:'burgers', name:'Zinger Cheese Burger',  price:349, desc:'Zinger patty topped with melted cheese & veggies',   img:'https://images.unsplash.com/photo-1550317138-10000687a72b?w=500&q=85', badge:''           },
-  { id:3,  cat:'burgers', name:'Chicken Paty Burger',   price:279, desc:'Juicy grilled chicken patty in a soft bun',          img:'https://images.unsplash.com/photo-1550547660-d9450f859349?q=80&w=1000&auto=format&fit=crop', badge:''           },
-  { id:4,  cat:'burgers', name:'Double Deker Burger',   price:449, desc:'Double stacked loaded burger',                       img:'https://images.unsplash.com/photo-1586816001966-79b736744398?w=500&q=85', badge:'Special'    },
+  { id:1,  cat:'burgers', name:'Zinger Burger',         price:299, desc:'Crispy fried chicken patty with special sauce',      img:'https://hmdfastfood.pk/wp-content/uploads/2020/07/Untitled-design-21.png', badge:'Popular'   },
+  { id:2,  cat:'burgers', name:'Zinger Cheese Burger',  price:349, desc:'Zinger patty topped with melted cheese & veggies',   img:'https://rasheedqorma.com/_next/image?url=https%3A%2F%2Fassets.indolj.io%2Fupload%2F1761740582-Zinger-Chees-Burger%20(1).png&w=640&q=75', badge:''           },
+  { id:3,  cat:'burgers', name:'Chicken Paty Burger',   price:279, desc:'Juicy grilled chicken patty in a soft bun',          img:'https://thewholecook.com/wp-content/uploads/2023/07/The-Best-Ground-Chicken-Burgers-1-5.jpg', badge:''           },
+  { id:4,  cat:'burgers', name:'Double Deker Burger',   price:449, desc:'Double stacked loaded burger',                       img:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVoSlkOxsrK_i089Hq4drNcaXZWyoUitOw3pdIt4X7VikvOGc2d803L8h_Mg&s'    },
   { id:5,  cat:'burgers', name:'Jalapeno Burger',       price:399, desc:'Fiery jalapeno burger with house hot sauce',         img:'https://images.unsplash.com/photo-1607013251379-e6eecfffe234?w=500&q=85', badge:'Spicy'      },
   { id:6,  cat:'burgers', name:'Maxican Burger',        price:399, desc:'Mexican style burger with bold spices',              img:'https://images.unsplash.com/photo-1553979459-d2229ba7433b?w=500&q=85', badge:''           },
   { id:7,  cat:'burgers', name:'Lava Zinger Burger',    price:449, desc:'Zinger with signature lava hot sauce',               img:'https://images.unsplash.com/photo-1572802419224-296b0aeee0d9?w=500&q=85', badge:'Hot'        },
@@ -18,17 +18,17 @@ const MENU_ITEMS = [
   { id:12, cat:'burgers', name:'Lapeta Egg Burger',     price:179, desc:'Egg Lapeta burger   best value',                     img:'https://images.unsplash.com/photo-1561758033-d89a9ad46330?w=500&q=85', badge:'Value'      },
 
   // ── PIZZA ─────────────────────────────────────────────────
-  { id:13, cat:'pizza', name:'BBQ Pizza (Small)',             price:399, desc:'Classic BBQ chicken pizza',                     img:'https://images.unsplash.com/photo-1513104890138-7c749659a591?w=500&q=85', badge:'Regular Pizza'   },
-  { id:13, cat:'pizza', name:'BBQ Pizza (medium)',            price:699, desc:'Classic BBQ chicken pizza',                     img:'https://images.unsplash.com/photo-1513104890138-7c749659a591?w=500&q=85', badge:'Regular Pizza'   },
-  { id:13, cat:'pizza', name:'BBQ Pizza (large)',             price:999, desc:'Classic BBQ chicken pizza',                     img:'https://images.unsplash.com/photo-1513104890138-7c749659a591?w=500&q=85', badge:'Regular Pizza'   },
+  { id:13, cat:'pizza', name:'BBQ Pizza (Small)',             price:399, desc:'Classic BBQ chicken pizza',                     img:'https://thevirtualcaterer.com/wp-content/uploads/2024/05/BBQ-Chicken-Pizza-3.jpg', badge:'Regular Pizza'   },
+  { id:13, cat:'pizza', name:'BBQ Pizza (medium)',            price:699, desc:'Classic BBQ chicken pizza',                     img:'https://thevirtualcaterer.com/wp-content/uploads/2024/05/BBQ-Chicken-Pizza-3.jpg', badge:'Regular Pizza'   },
+  { id:13, cat:'pizza', name:'BBQ Pizza (large)',             price:999, desc:'Classic BBQ chicken pizza',                     img:'https://thevirtualcaterer.com/wp-content/uploads/2024/05/BBQ-Chicken-Pizza-3.jpg', badge:'Regular Pizza'   },
 
-  { id:14, cat:'pizza', name:'Tikka Pizza (Small)',           price:399, desc:'Spicy tikka masala pizza',                      img:'https://images.unsplash.com/photo-1604382354936-07c5d9983bd3?w=500&q=85', badge:'Regular Pizza'     },
-  { id:14, cat:'pizza', name:'Tikka Pizza (medium)',          price:699, desc:'Spicy tikka masala pizza',                      img:'https://images.unsplash.com/photo-1604382354936-07c5d9983bd3?w=500&q=85', badge:'Regular Pizza'     },
-  { id:14, cat:'pizza', name:'Tikka Pizza (large)',           price:999, desc:'Spicy tikka masala pizza',                      img:'https://images.unsplash.com/photo-1604382354936-07c5d9983bd3?w=500&q=85', badge:'Regular Pizza'     },
+  { id:14, cat:'pizza', name:'Tikka Pizza (Small)',           price:399, desc:'Spicy tikka masala pizza',                      img:'https://onestophalal.com/cdn/shop/articles/tikka_masala_pizza-1694014914105_1200x.jpg?v=1694568363', badge:'Regular Pizza'     },
+  { id:14, cat:'pizza', name:'Tikka Pizza (medium)',          price:699, desc:'Spicy tikka masala pizza',                      img:'https://onestophalal.com/cdn/shop/articles/tikka_masala_pizza-1694014914105_1200x.jpg?v=1694568363', badge:'Regular Pizza'     },
+  { id:14, cat:'pizza', name:'Tikka Pizza (large)',           price:999, desc:'Spicy tikka masala pizza',                      img:'https://onestophalal.com/cdn/shop/articles/tikka_masala_pizza-1694014914105_1200x.jpg?v=1694568363', badge:'Regular Pizza'     },
 
-  { id:15, cat:'pizza', name:'Fajita Pizza (Small)',          price:399, desc:'Mexican fajita-style pizza',                    img:'https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=500&q=85', badge:'Regular Pizza'          },
-  { id:15, cat:'pizza', name:'Fajita Pizza (medium)',         price:699, desc:'Mexican fajita-style pizza',                    img:'https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=500&q=85', badge:'Regular Pizza'          },
-  { id:15, cat:'pizza', name:'Fajita Pizza (large)',          price:999, desc:'Mexican fajita-style pizza',                    img:'https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=500&q=85', badge:'Regular Pizza'          },
+  { id:15, cat:'pizza', name:'Fajita Pizza (Small)',          price:399, desc:'Mexican fajita-style pizza',                    img:'https://greenvalley.pk/cdn/shop/files/pizza-chicken-fajita_9f9b8488-4732-4396-ac52-b3699a87651e.webp?v=1739451209', badge:'Regular Pizza'          },
+  { id:15, cat:'pizza', name:'Fajita Pizza (medium)',         price:699, desc:'Mexican fajita-style pizza',                    img:'https://greenvalley.pk/cdn/shop/files/pizza-chicken-fajita_9f9b8488-4732-4396-ac52-b3699a87651e.webp?v=1739451209', badge:'Regular Pizza'          },
+  { id:15, cat:'pizza', name:'Fajita Pizza (large)',          price:999, desc:'Mexican fajita-style pizza',                    img:'https://greenvalley.pk/cdn/shop/files/pizza-chicken-fajita_9f9b8488-4732-4396-ac52-b3699a87651e.webp?v=1739451209', badge:'Regular Pizza'          },
 
   { id:16, cat:'pizza', name:'Foods Carnival Pizza (Small)', price:449, desc:'Our signature loaded special pizza',             img:'https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=500&q=85', badge:'Signature' },
   { id:16, cat:'pizza', name:'Foods Carnival Pizza (medium)',price:799, desc:'Our signature loaded special pizza',             img:'https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=500&q=85', badge:'Signature' },
