@@ -127,19 +127,19 @@ const MENU_ITEMS = [
   { id:65, cat:'drinks', name:'1 Liter Cold Drink',    price:150, desc:'1L cold drink bottle',                     img:'https://images.unsplash.com/photo-1622483767028-3f66f32aef97?w=500&q=85', badge:''           },
   { id:66, cat:'drinks', name:'500ml Cold Drink',      price:99,  desc:'500ml cold drink can / bottle',            img:'https://images.unsplash.com/photo-1553361371-9b22f78e8b1d?w=500&q=85', badge:''           },
   { id:67, cat:'drinks', name:'Masala Lemon Soda',     price:99,  desc:'Tangy house masala lemon soda',            img:'https://images.unsplash.com/photo-1621263764928-df1444c5e859?w=500&q=85', badge:''           },
-  { id:68, cat:'drinks', name:'Pineapple Soda',        price:199, desc:'Refreshing pineapple soda',                img:'https://cdn.pixabay.com/photo/2024/01/04/13/06/ai-generated-8487401_1280.jpg', badge:''           },
-  { id:69, cat:'drinks', name:'Mint Margarita',        price:150, desc:'Cool & refreshing mint margarita',         img:'https://cdn.pixabay.com/photo/2023/03/03/15/55/ai-generated-7827942_1280.jpg', badge:'Refreshing' },
+  { id:68, cat:'drinks', name:'Pineapple Soda',        price:199, desc:'Refreshing pineapple soda',                img:'https://www.torani.com/media/catalog/product/p/i/pineapple_italian_soda.jpg?optimize=medium&fit=bounds&height=815&width=650&canvas=650:815', badge:''           },
+  { id:69, cat:'drinks', name:'Mint Margarita',        price:150, desc:'Cool & refreshing mint margarita',         img:'https://t3.ftcdn.net/jpg/07/61/30/56/240_F_761305638_NtaMusibJF0yNiZp1fvRrTaZfWo0gK1R.jpg', badge:'Refreshing' },
   { id:70, cat:'drinks', name:'Doodh Soda',            price:199, desc:'Classic Doodh Soda',                       img:'https://cdn.pixabay.com/photo/2025/01/09/18/42/ai-generated-9322382_1280.jpg', badge:''           },
-  { id:71, cat:'drinks', name:'Mix Fruit Soda',        price:299, desc:'Blend of refreshing fruit sodas',          img:'https://cdn.pixabay.com/photo/2024/05/09/14/21/apple-juice-8751130_1280.png', badge:''           },
+  { id:71, cat:'drinks', name:'Mix Fruit Soda',        price:299, desc:'Blend of refreshing fruit sodas',          img:'https://t4.ftcdn.net/jpg/09/10/09/75/240_F_910097561_8uUqHdglYYAPZQKWeH6VGJHHrST4u3OI.jpg', badge:''           },
 
   // ── CHAAT & REFRESHMENT ───────────────────────────────────
   { id:72, cat:'chaat', name:'Tikka Malai Boti Samosa (12 pcs)', price:420, desc:'12 crispy stuffed samosas',            img:'https://images.unsplash.com/photo-1601050690597-df0568f70950?w=500&q=85', badge:'Popular' },
   { id:73, cat:'chaat', name:'Dahi Bhalla',                      price:199, desc:'Classic dahi bhalla with chutney',     img:'https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=500&q=85', badge:''        },
-  { id:74, cat:'chaat', name:'Fruit Chaat',                      price:320, desc:'Fresh seasonal fruit chaat',           img:'https://images.unsplash.com/photo-1610832958506-aa56368176cf?w=500&q=85', badge:''        },
+  { id:74, cat:'chaat', name:'Fruit Chaat',                      price:320, desc:'Fresh seasonal fruit chaat',           img:'https://www.littlespicejar.com/wp-content/uploads/2025/02/Pakistani-Fruit-Chaat-10-710x1065.jpg', badge:''        },
   { id:75, cat:'chaat', name:'Double Samosa Chaat',              price:190, desc:'Two samosas with chaat topping',       img:'https://diethood.com/wp-content/uploads/2023/02/samosa-chaat-recipe-4.jpg', badge:''        },
   { id:76, cat:'chaat', name:'Samosa Chaat Single',              price:130, desc:'Single samosa chaat',                  img:'https://diethood.com/wp-content/uploads/2023/02/samosa-chaat-recipe-4.jpg', badge:''        },
   { id:77, cat:'chaat', name:'Chana Papri Chaat',                price:190, desc:'Classic chana papri chaat',            img:'https://moonrice.net/wp-content/uploads/2023/03/Papdi-5.jpg', badge:''        },
-  { id:78, cat:'chaat', name:'Cream Fruit Chaat',                price:350, desc:'Fruit chaat topped with fresh cream',  img:'https://images.unsplash.com/photo-1519915028121-7d3463d20b13?w=500&q=85', badge:'Premium' },
+  { id:78, cat:'chaat', name:'Cream Fruit Chaat',                price:350, desc:'Fruit chaat topped with fresh cream',  img:'https://therecipespk.com/wp-content/uploads/2014/07/Creamy-Fruit-Chaat.jpg', badge:'Premium' },
   {id: 101, cat: 'refresh',name: 'Rajasthani Gol Gappe(12 pcs)',price: 250,desc: 'Crispy gol gappe with two flavor of khatta pani.',img: 'https://media.istockphoto.com/id/525340611/photo/pani-puri-golgappe-chat-item-india.webp?a=1&b=1&s=612x612&w=0&k=20&c=ERDjp-8zeCqKa2Rf_eenKesXDpVcKdixrtq6wUSpmVI=', badge: 'New'  },
 ];
 
