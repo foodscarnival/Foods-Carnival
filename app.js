@@ -219,7 +219,7 @@ function updateCartUI() {
 
     cartFooterEl.classList.add('visible');
     $('cartSubtotal').textContent = `Rs. ${total}`;
-    $('cartTotal').textContent    = `Rs. ${total + 250}`;
+    $('cartTotal').textContent    = `Rs. ${total}`;
   }
 }
 
@@ -245,7 +245,7 @@ function openCheckout() {
 // Build order summary text
 function buildOrderText(name, phone, address) {
   const subtotal = cart.reduce((s, i) => s + i.price * i.qty, 0);
-  const total    = subtotal + 250;
+  const total    = subtotal ;
   let lines = [];
   lines.push(`ORDER — Foods Carnival Fast Food & Refreshment Point`);
   lines.push(`━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━`);
@@ -259,7 +259,7 @@ function buildOrderText(name, phone, address) {
   });
   lines.push(`━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━`);
   lines.push(`Subtotal    : Rs. ${subtotal}`);
-  lines.push(`Delivery    : Rs. 250`);
+  lines.push(`Delivery    : Rs. 22 per KM`);
   lines.push(`TOTAL       : Rs. ${total}`);
   lines.push(`━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━`);
   lines.push(`Thank you for ordering from Foods Carnival!`);
