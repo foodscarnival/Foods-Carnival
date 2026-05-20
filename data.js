@@ -83,7 +83,7 @@ const MENU_ITEMS = [
   // ── FRIES ─────────────────────────────────────────────────
   { id:59, cat:'fries', name:'Friend Fries',     price:199, desc:'Classic golden crispy fries',                  img:'https://images.unsplash.com/photo-1573080496219-bb080dd4f877?w=500&q=85', badge:''           },
   { id:60, cat:'fries', name:'Masala Fries',     price:230, desc:'Fries tossed in house masala spice blend',     img:'https://cdn.pixabay.com/photo/2024/04/16/16/40/ai-generated-8700416_1280.jpg', badge:'Popular'    },
-  { id:61, cat:'fries', name:'Mayo Garlic Fries',price:299, desc:'Crispy fries drizzled with garlic mayo',       img:'https://media.istockphoto.com/id/182922091/photo/hand-cut-oven-roasted-french-fries-with-garlic-mayonnaise.jpg?s=1024x1024&w=is&k=20&c=mZ1AEQRLMyPog0c6Mjg4j-IQMBxU0jPioEE-V4uXwzE=', badge:''           },
+  { id:61, cat:'fries', name:'Mayo Garlic Fries',price:299, desc:'Crispy fries drizzled with garlic mayo',       img:'https://cdn.pixabay.com/photo/2016/11/20/09/06/bowl-1842294_1280.jpg', badge:''           },
   { id:62, cat:'fries', name:'Loaded Fries',     price:499, desc:'Fully loaded fries with toppings & sauce',     img:'https://t4.ftcdn.net/jpg/18/60/11/15/240_F_1860111540_RJ2kezVtFQ1RLKXm81RjzbyWwsrQlX8K.jpg', badge:'Best Seller'},
   { id:63, cat:'fries', name:'Pizza Fries',      price:499, desc:'Fries with pizza sauce, cheese & toppings',    img:'https://cdn.pixabay.com/photo/2024/09/02/10/23/ai-generated-9016392_1280.jpg', badge:'Fusion'     },
   { id:64, cat:'fries', name:'Matka Fries',      price:699, desc:'Unique fries served in a clay matka pot',      img:'https://t4.ftcdn.net/jpg/05/82/47/85/240_F_582478581_xAE0rwKIV7dJ6Gjo5T8p0sCYkm7SEEEM.jpg', badge:'Unique'     },
