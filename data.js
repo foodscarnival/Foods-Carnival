@@ -69,7 +69,7 @@ const MENU_ITEMS = [
   { id:48, cat:'shawarma', name:'Chicken Cheese Shawarma',price:199, desc:'Chicken shawarma with melted cheese',        img:'https://images.unsplash.com/photo-1561651823-34feb02250e4?q=80&w=1000&auto=format&fit=crop', badge:''        },
   { id:49, cat:'shawarma', name:'Zinger Shawarma',        price:219, desc:'Crispy zinger pieces in a shawarma wrap',    img:'https://images.unsplash.com/photo-1626700051175-6818013e1d4f?q=80&w=1000&auto=format&fit=crop', badge:''        },
   { id:50, cat:'shawarma', name:'Zinger Cheese Shawarma', price:249, desc:'Zinger shawarma loaded with cheese',         img:'https://images.pexels.com/photos/461198/pexels-photo-461198.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1', badge:''        },
-  { id:51, cat:'shawarma', name:'Arabic Shawarma',        price:199, desc:'Traditional Arabic style shawarma',          img:'https://fishandmeat.hk/wp-content/uploads/2025/05/arabic-chicken-shawarma-sandwich-recipe-1747792750.jpg', badge:'Special'},
+  { id:51, cat:'shawarma', name:'Arabic Shawarma',        price:199, desc:'Traditional Arabic style shawarma',          img:'https://cdn.pixabay.com/photo/2021/03/02/17/24/shawarma-6063224_1280.jpg', badge:'Special'},
   { id:52, cat:'shawarma', name:'Turkish Shawarma',       price:249, desc:'Turkish spiced chicken shawarma',            img:'https://cdn.pixabay.com/photo/2025/10/16/13/26/kofta-9898218_1280.jpg', badge:''        },
 
   // ── FRIED WINGS ───────────────────────────────────────────
@@ -83,7 +83,7 @@ const MENU_ITEMS = [
   // ── FRIES ─────────────────────────────────────────────────
   { id:59, cat:'fries', name:'Friend Fries',     price:199, desc:'Classic golden crispy fries',                  img:'https://images.unsplash.com/photo-1573080496219-bb080dd4f877?w=500&q=85', badge:''           },
   { id:60, cat:'fries', name:'Masala Fries',     price:230, desc:'Fries tossed in house masala spice blend',     img:'https://cdn.pixabay.com/photo/2024/04/16/16/40/ai-generated-8700416_1280.jpg', badge:'Popular'    },
-  { id:61, cat:'fries', name:'Mayo Garlic Fries',price:299, desc:'Crispy fries drizzled with garlic mayo',       img:'https://cdn.pixabay.com/photo/2024/09/02/10/23/ai-generated-9016387_1280.jpg', badge:''           },
+  { id:61, cat:'fries', name:'Mayo Garlic Fries',price:299, desc:'Crispy fries drizzled with garlic mayo',       img:'https://media.istockphoto.com/id/182922091/photo/hand-cut-oven-roasted-french-fries-with-garlic-mayonnaise.jpg?s=1024x1024&w=is&k=20&c=mZ1AEQRLMyPog0c6Mjg4j-IQMBxU0jPioEE-V4uXwzE=', badge:''           },
   { id:62, cat:'fries', name:'Loaded Fries',     price:499, desc:'Fully loaded fries with toppings & sauce',     img:'https://t4.ftcdn.net/jpg/18/60/11/15/240_F_1860111540_RJ2kezVtFQ1RLKXm81RjzbyWwsrQlX8K.jpg', badge:'Best Seller'},
   { id:63, cat:'fries', name:'Pizza Fries',      price:499, desc:'Fries with pizza sauce, cheese & toppings',    img:'https://cdn.pixabay.com/photo/2024/09/02/10/23/ai-generated-9016392_1280.jpg', badge:'Fusion'     },
   { id:64, cat:'fries', name:'Matka Fries',      price:699, desc:'Unique fries served in a clay matka pot',      img:'https://t4.ftcdn.net/jpg/05/82/47/85/240_F_582478581_xAE0rwKIV7dJ6Gjo5T8p0sCYkm7SEEEM.jpg', badge:'Unique'     },
@@ -91,7 +91,7 @@ const MENU_ITEMS = [
   // ── WRAPS ─────────────────────────────────────────────────
   { id:65, cat:'wraps', name:'Afghani Wrap',       price:349, desc:'Afghani spiced chicken in a soft tortilla wrap', img:'https://media.istockphoto.com/id/594039684/photo/wraps.jpg?s=612x612&w=0&k=20&c=nZ_MMVwEaP1vOZvuwX-bLqkQdworMbQT_7JwdgLVP5s=', badge:''          },
   { id:66, cat:'wraps', name:'Food Carnival Wrap', price:349, desc:'Our signature loaded wrap',                       img:'https://images.unsplash.com/photo-1565299585323-38d6b0865b47?w=500&q=85', badge:'Signature' },
-  { id:67, cat:'wraps', name:'Arabic Wrap',        price:349, desc:'Arabic style chicken wrap',                       img:'https://cdn.pixabay.com/photo/2023/10/21/09/00/ai-generated-8331065_1280.jpg', badge:''          },
+  { id:67, cat:'wraps', name:'Arabic Wrap',        price:349, desc:'Arabic style chicken wrap',                       img:'https://cdn.pixabay.com/photo/2022/08/27/14/12/tawook-chicken-sandwich-7414558_1280.jpg', badge:''          },
   { id:68, cat:'wraps', name:'Zinger Crispy Wrap', price:399, desc:'Crispy zinger in a fresh soft tortilla',          img:'https://thumbs.dreamstime.com/b/zinger-chicken-broast-wrapped-fried-chicken-s-either-zesty-spicy-fillet-crispy-golden-broasted-piece-380661647.jpg?w=768', badge:'Popular'   },
 
   // ── PASTA ─────────────────────────────────────────────────
@@ -105,7 +105,7 @@ const MENU_ITEMS = [
   { id:76, cat:'pasta', name:'Alfredo Pasta (Large)',       price:599, desc:'Large creamy Alfredo pasta',          img:'https://images.unsplash.com/photo-1555949258-eb67b1ef0ceb?w=500&q=85', badge:''        },
 
   // ── SANDWICH ──────────────────────────────────────────────
-  { id:77, cat:'sandwich', name:'Club Sandwich',          price:299, desc:'Triple decker classic club sandwich',     img:'https://images.unsplash.com/photo-1509722747041-616f39b57569?w=500&q=85', badge:''        },
+  { id:77, cat:'sandwich', name:'Club Sandwich',          price:299, desc:'Triple decker classic club sandwich',     img:'https://cdn.pixabay.com/photo/2019/01/29/20/01/club-sandwich-3963184_1280.jpg', badge:''        },
   { id:78, cat:'sandwich', name:'Chicken Cheese Sandwich',price:349, desc:'Toasted chicken & cheese sandwich',       img:'https://cdn.pixabay.com/photo/2023/08/12/02/58/sandwich-8184642_1280.png', badge:'Popular' },
   { id:79, cat:'sandwich', name:'Pizza Sandwich',         price:399, desc:'Sandwich with pizza sauce & toppings',    img:'https://cdn.pixabay.com/photo/2022/10/07/15/46/sandwich-7505382_1280.jpg', badge:''        },
   { id:80, cat:'sandwich', name:'Grill Sandwich',         price:349, desc:'Hot grilled sandwich with fillings',      img:'https://images.unsplash.com/photo-1528735602780-2552fd46c7af?w=500&q=85', badge:''        },
