@@ -97,10 +97,10 @@ const MENU_ITEMS = [
   // ── PASTA ─────────────────────────────────────────────────
   { id:69, cat:'pasta', name:'Food Carnival Pasta (Small)', price:299, desc:'Our signature house pasta',          img:'https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=500&q=85', badge:'Special' },
   { id:70, cat:'pasta', name:'Food Carnival Pasta (Large)', price:549, desc:'Large signature house pasta',         img:'https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=500&q=85', badge:''        },
-  { id:71, cat:'pasta', name:'Chicken Cheese Pasta (Small)',price:299, desc:'Cheesy baked chicken pasta',         img:'https://images.unsplash.com/photo-1563379926898-05f4575a45d8?w=500&q=85', badge:''        },
-  { id:72, cat:'pasta', name:'Chicken Cheese Pasta (large)',price:499, desc:'Cheesy baked chicken pasta',         img:'https://images.unsplash.com/photo-1563379926898-05f4575a45d8?w=500&q=85', badge:''        },
-  { id:73, cat:'pasta', name:'Kababish Pasta (Small)',      price:299, desc:'Kababish spiced pasta',               img:'https://media.istockphoto.com/id/2015384579/photo/chicken-with-curry-sauce.webp?a=1&b=1&s=612x612&w=0&k=20&c=ESqeFbmc5_GZTUgrv136x8NOEt4ly7ZlffG3m780zhk=', badge:''        },
-  { id:74, cat:'pasta', name:'Kababish Pasta (large)',      price:499, desc:'Kababish spiced pasta',               img:'https://media.istockphoto.com/id/2015384579/photo/chicken-with-curry-sauce.webp?a=1&b=1&s=612x612&w=0&k=20&c=ESqeFbmc5_GZTUgrv136x8NOEt4ly7ZlffG3m780zhk=', badge:''        },
+  { id:71, cat:'pasta', name:'Chicken Cheese Pasta (Small)',price:299, desc:'Cheesy baked chicken pasta',         img:'https://media.istockphoto.com/id/2015384579/photo/chicken-with-curry-sauce.webp?a=1&b=1&s=612x612&w=0&k=20&c=ESqeFbmc5_GZTUgrv136x8NOEt4ly7ZlffG3m780zhk=', badge:''        },
+  { id:72, cat:'pasta', name:'Chicken Cheese Pasta (large)',price:499, desc:'Cheesy baked chicken pasta',         img:'https://media.istockphoto.com/id/2015384579/photo/chicken-with-curry-sauce.webp?a=1&b=1&s=612x612&w=0&k=20&c=ESqeFbmc5_GZTUgrv136x8NOEt4ly7ZlffG3m780zhk=', badge:''        },
+  { id:73, cat:'pasta', name:'Kababish Pasta (Small)',      price:299, desc:'Kababish spiced pasta',               img:'https://images.unsplash.com/photo-1563379926898-05f4575a45d8?w=500&q=85', badge:''        },
+  { id:74, cat:'pasta', name:'Kababish Pasta (large)',      price:499, desc:'Kababish spiced pasta',               img:'https://images.unsplash.com/photo-1563379926898-05f4575a45d8?w=500&q=85', badge:''        },
   { id:75, cat:'pasta', name:'Alfredo Pasta (Small)',       price:399, desc:'Rich creamy classic Alfredo pasta',   img:'https://images.unsplash.com/photo-1555949258-eb67b1ef0ceb?w=500&q=85', badge:''        },
   { id:76, cat:'pasta', name:'Alfredo Pasta (Large)',       price:599, desc:'Large creamy Alfredo pasta',          img:'https://images.unsplash.com/photo-1555949258-eb67b1ef0ceb?w=500&q=85', badge:''        },
 
