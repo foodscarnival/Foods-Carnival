@@ -5,7 +5,7 @@
 const MENU_ITEMS = [
 
   // ── BURGERS ──────────────────────────────────────────────
-  { id:1,  cat:'burgers', name:'Zinger Burger',         price:299, desc:'Crispy fried chicken patty with special sauce',      img:'https://hmdfastfood.pk/wp-content/uploads/2020/07/Untitled-design-21.png', badge:'Popular'   },
+  { id:1,  cat:'burgers', name:'Zinger Burger',         price:299, desc:'Crispy fried chicken patty with special sauce',      img:'https://miro.medium.com/v2/resize:fit:720/format:webp/1*Qwxo-poZCz12k2ck5ZE3xg.jpeg'   },
   { id:2,  cat:'burgers', name:'Zinger Cheese Burger',  price:349, desc:'Zinger patty topped with melted cheese & veggies',   img:'https://rasheedqorma.com/_next/image?url=https%3A%2F%2Fassets.indolj.io%2Fupload%2F1761740582-Zinger-Chees-Burger%20(1).png&w=640&q=75', badge:''           },
   { id:3,  cat:'burgers', name:'Chicken Paty Burger',   price:279, desc:'Juicy grilled chicken patty in a soft bun',          img:'https://thewholecook.com/wp-content/uploads/2023/07/The-Best-Ground-Chicken-Burgers-1-5.jpg', badge:''           },
   { id:4,  cat:'burgers', name:'Double Deker Burger',   price:449, desc:'Double stacked loaded burger',                       img:'https://images.unsplash.com/photo-1553979459-d2229ba7433b?w=500&q=85'    },
